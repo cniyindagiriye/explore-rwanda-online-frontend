@@ -1,3 +1,3 @@
-![CI/CD](https://github.com/cniyindagiriye/explore-rwanda-online-frontend/workflows/CI/CD/badge.svg)  [![codecov](https://codecov.io/gh/cniyindagiriye/explore-rwanda-online-frontend/branch/develop/graph/badge.svg)](https://codecov.io/gh/cniyindagiriye/explore-rwanda-online-frontend)
+![CI/CD](https://github.com/cniyindagiriye/explore-rwanda-online-frontend/workflows/CI/CD/badge.svg)  [![codecov](https://codecov.io/gh/cniyindagiriye/explore-rwanda-online-frontend/branch/develop/graph/badge.svg)](https://codecov.io/gh/cniyindagiriye/explore-rwanda-online-frontend)  [![Codecov](https://img.shields.io/codecov/c/github/cniyindagiriye/explore-rwanda-online)](https://codecov.io/gh/cniyindagiriye/explore-rwanda-online)
 
 # Explore Rwanda Online App
