@@ -35,6 +35,11 @@ jobs:
         token: ${{ secrets.CODECOV_TOKEN }}
     - name: Build
       run: npm run build
+    - uses: paambaati/codeclimate-action@v2.2.4
+      env:
+        CC_TEST_REPORTER_ID: 945dfb58a832d233a3caeb84e3e6d3be212e8c7abcb48117fce63b9adcb43647
+      with:
+        coverageCommand: yarn coverage
     - name: Deploy
       run: |
         git config --global user.name $user_name
