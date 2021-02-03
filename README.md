@@ -1,1 +1,1 @@
-# explore-rwanda-online-frontend
+# Explore Rwanda Online App
