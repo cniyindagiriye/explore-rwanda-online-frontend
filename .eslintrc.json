@@ -24,8 +24,8 @@
         "prettier"
     ],
     "rules": {
-        "prettier/prettier": "warn",
-        "linebreak-style": ["error", "windows"],
+        "prettier/prettier": "error",
+        "linebreak-style": ["off", "windows"],
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "react/state-in-constructor": "off"
     }
