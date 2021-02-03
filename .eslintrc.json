@@ -20,17 +20,12 @@
         "sourceType": "module"
     },
     "plugins": [
-        "prettier",
-        "react"
+        "react",
+        "prettier"
     ],
     "rules": {
-        "quotes": [
-            "error",
-            "single",
-            { "avoidEscape": true, "allowTemplateLiterals": false }
-          ],
-        "prettier/prettier": "error",
-        "linebreak-style": ["off", "windows"],
+        "prettier/prettier": "warn",
+        "linebreak-style": ["error", "windows"],
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "react/state-in-constructor": "off"
     }
