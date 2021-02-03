@@ -26,15 +26,14 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test --watchAll",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "lint:fix": "npm run lint -- --fix",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "coverage": "npm run test && jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://myusername.github.io/rwanda-online",
+  "homepage": "https://cniyindagiriye.github.io/rwanda-online",
   "eslintConfig": {
     "extends": [
       "react-app",
