@@ -2,11 +2,14 @@
     "parser": "babel-eslint",
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "jest": true,
+        "node": true
     },
     "extends": [
         "plugin:react/recommended",
         "airbnb",
+        "prettier",
         "prettier/react"
     ],
     "parserOptions": {
@@ -17,14 +20,18 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react",
         "prettier",
-        "prettier/react"
+        "react"
     ],
     "rules": {
-        "linebreak-style": [0, "windows"],
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "quotes": [
+            "error",
+            "single",
+            { "avoidEscape": true, "allowTemplateLiterals": false }
+          ],
         "prettier/prettier": "error",
+        "linebreak-style": ["off", "windows"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "react/state-in-constructor": "off"
     }
 }
