@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import styles from './styles/button.module.css';
 import Home from './containers/Home/Home';
@@ -7,11 +7,9 @@ import Home from './containers/Home/Home';
 function App() {
   return (
     <div className={styles.button}>
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-        </Switch>
-      </Router>
+      <Switch>
+        <Route path="/" component={Home} />
+      </Switch>
     </div>
   );
 }

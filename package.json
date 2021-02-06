@@ -49,7 +49,7 @@
     },
     "coverageReporters": ["json", "lcovonly", "text", "clover"]
   },
-  "homepage": "https://cniyindagiriye.github.io/rwanda-online",
+  "homepage": "https://cniyindagiriye.github.io/explore-rwanda-online-frontend",
   "browserslist": {
     "production": [
       ">0.2%",
