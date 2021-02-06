@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/rwanda-online/static/css/main.50549f60.chunk.css",
-    "main.js": "/rwanda-online/static/js/main.93873afe.chunk.js",
-    "main.js.map": "/rwanda-online/static/js/main.93873afe.chunk.js.map",
+    "main.css": "/rwanda-online/static/css/main.df6623c2.chunk.css",
+    "main.js": "/rwanda-online/static/js/main.af74e85a.chunk.js",
+    "main.js.map": "/rwanda-online/static/js/main.af74e85a.chunk.js.map",
     "runtime-main.js": "/rwanda-online/static/js/runtime-main.7c970bb7.js",
     "runtime-main.js.map": "/rwanda-online/static/js/runtime-main.7c970bb7.js.map",
     "static/js/2.f9b106d3.chunk.js": "/rwanda-online/static/js/2.f9b106d3.chunk.js",
     "static/js/2.f9b106d3.chunk.js.map": "/rwanda-online/static/js/2.f9b106d3.chunk.js.map",
     "index.html": "/rwanda-online/index.html",
-    "static/css/main.50549f60.chunk.css.map": "/rwanda-online/static/css/main.50549f60.chunk.css.map",
+    "static/css/main.df6623c2.chunk.css.map": "/rwanda-online/static/css/main.df6623c2.chunk.css.map",
     "static/js/2.f9b106d3.chunk.js.LICENSE.txt": "/rwanda-online/static/js/2.f9b106d3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7c970bb7.js",
     "static/js/2.f9b106d3.chunk.js",
-    "static/css/main.50549f60.chunk.css",
-    "static/js/main.93873afe.chunk.js"
+    "static/css/main.df6623c2.chunk.css",
+    "static/js/main.af74e85a.chunk.js"
   ]
 }
