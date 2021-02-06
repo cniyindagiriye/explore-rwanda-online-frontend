@@ -26,13 +26,19 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install dependencies
-      run: npm ci
+      run: npm install
     - name: Run the tests and generate coverage report
-      run: npm test -- --coverage
+      run: npm test -- --coverage --colors
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
+    - uses: paambaati/codeclimate-action@v2.7.2
+      env:
+        CC_TEST_REPORTER_ID: dd99e4f28268eb4194c89c919caa03adcb158f85673fc2d555a227a98222d649
+      with:
+        coverageCommand: npm run test:coverage
+        debug: true
     - name: Build
       run: npm run build
     - name: Deploy
