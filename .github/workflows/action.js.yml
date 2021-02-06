@@ -35,7 +35,7 @@ jobs:
         token: ${{ secrets.CODECOV_TOKEN }}
     - uses: paambaati/codeclimate-action@v2.7.2
       env:
-        CC_TEST_REPORTER_ID: dd99e4f28268eb4194c89c919caa03adcb158f85673fc2d555a227a98222d649
+        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
       with:
         coverageCommand: npm run test:coverage
         debug: true
