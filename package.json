@@ -31,7 +31,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "test:coverage": "npm run test -- --env=jsdom --coverage --colors  --watchAll",
+    "test:coverage": "npm run test -- --env=jsdom --watchAll=false --coverage --colors",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "lint:fix": "npm run lint -- --fix",
