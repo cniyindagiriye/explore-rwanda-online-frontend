@@ -7,25 +7,37 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@hookform/resolvers": "^1.3.4",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
     "autoprefixer": "^9.8.6",
+    "axios": "^0.21.1",
+    "cloudinary-react": "^1.6.8",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^3.1.0",
     "postcss": "^7.0.35",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.1",
+    "react-loading-skeleton": "^2.1.1",
+    "react-player": "^2.8.2",
     "react-redux": "^7.2.2",
+    "react-redux-toastr": "^7.6.5",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-toastify": "^7.0.3",
+    "react-toastr": "^3.0.0",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "yup": "^0.32.8"
   },
   "scripts": {
     "start": "craco start",
@@ -39,17 +51,14 @@
     "deploy": "gh-pages -d build"
   },
   "jest": {
-    "coverageThreshold": {
-      "global": {
-        "statements": 80,
-        "branches": 80,
-        "functions": 80,
-        "lines": 80
-      }
-    },
-    "coverageReporters": ["json", "lcovonly", "text", "clover"]
+    "coverageReporters": [
+      "json",
+      "lcovonly",
+      "text",
+      "clover"
+    ]
   },
-  "homepage": "https://cniyindagiriye.github.io/rwanda-online",
+  "homepage": "https://cniyindagiriye.github.io/explore-rwanda-online-frontend",
   "browserslist": {
     "production": [
       ">0.2%",

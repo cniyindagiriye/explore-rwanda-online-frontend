@@ -1,1 +1,2 @@
-export { add, subtract, increment, decrement } from './counter';
+// eslint-disable-next-line import/prefer-default-export
+export { auth } from './auth';

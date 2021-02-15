@@ -1,18 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {  BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import styles from './styles/button.module.css';
-import Home from './containers/Home/Home';
+import Index from './components/Index';
+import Auth from './containers/Auth/Auth';
+import AuthSuccess from './containers/Auth/Auth.success';
+import ConfirmRegistration from './components/ConfirmRegistration/ConfirmRegistration';
 
 function App() {
   return (
-    <div className={styles.button}>
-      <Router>
+    <Router>
+      <div className="font-sans w-full h-full m-0">
+        <Route path="/" exact component={Index} />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route path="/register" component={Auth} />
+          <Route path="/register-success" component={AuthSuccess} />
+          <Route path="/confirm-account" component={ConfirmRegistration} />
         </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
+    
   );
 }
 
