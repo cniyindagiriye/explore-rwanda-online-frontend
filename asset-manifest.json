@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/explore-rwanda-online-frontend/static/css/main.5769425f.chunk.css",
-    "main.js": "/explore-rwanda-online-frontend/static/js/main.d7f05ca3.chunk.js",
-    "main.js.map": "/explore-rwanda-online-frontend/static/js/main.d7f05ca3.chunk.js.map",
+    "main.css": "/explore-rwanda-online-frontend/static/css/main.2af8b05a.chunk.css",
+    "main.js": "/explore-rwanda-online-frontend/static/js/main.9520b01f.chunk.js",
+    "main.js.map": "/explore-rwanda-online-frontend/static/js/main.9520b01f.chunk.js.map",
     "runtime-main.js": "/explore-rwanda-online-frontend/static/js/runtime-main.2cf9e428.js",
     "runtime-main.js.map": "/explore-rwanda-online-frontend/static/js/runtime-main.2cf9e428.js.map",
     "static/css/2.e5940d02.chunk.css": "/explore-rwanda-online-frontend/static/css/2.e5940d02.chunk.css",
-    "static/js/2.775aa2ce.chunk.js": "/explore-rwanda-online-frontend/static/js/2.775aa2ce.chunk.js",
-    "static/js/2.775aa2ce.chunk.js.map": "/explore-rwanda-online-frontend/static/js/2.775aa2ce.chunk.js.map",
+    "static/js/2.a6b7db8c.chunk.js": "/explore-rwanda-online-frontend/static/js/2.a6b7db8c.chunk.js",
+    "static/js/2.a6b7db8c.chunk.js.map": "/explore-rwanda-online-frontend/static/js/2.a6b7db8c.chunk.js.map",
     "index.html": "/explore-rwanda-online-frontend/index.html",
     "static/css/2.e5940d02.chunk.css.map": "/explore-rwanda-online-frontend/static/css/2.e5940d02.chunk.css.map",
-    "static/css/main.5769425f.chunk.css.map": "/explore-rwanda-online-frontend/static/css/main.5769425f.chunk.css.map",
-    "static/js/2.775aa2ce.chunk.js.LICENSE.txt": "/explore-rwanda-online-frontend/static/js/2.775aa2ce.chunk.js.LICENSE.txt",
-    "static/media/JaneDoe.4ef82ef4.png": "/explore-rwanda-online-frontend/static/media/JaneDoe.4ef82ef4.png",
+    "static/css/main.2af8b05a.chunk.css.map": "/explore-rwanda-online-frontend/static/css/main.2af8b05a.chunk.css.map",
+    "static/js/2.a6b7db8c.chunk.js.LICENSE.txt": "/explore-rwanda-online-frontend/static/js/2.a6b7db8c.chunk.js.LICENSE.txt",
     "static/media/accomodationImage.3e5d6711.png": "/explore-rwanda-online-frontend/static/media/accomodationImage.3e5d6711.png",
     "static/media/hotel1.48026b13.jpg": "/explore-rwanda-online-frontend/static/media/hotel1.48026b13.jpg",
     "static/media/hotel2.56ac3737.jpg": "/explore-rwanda-online-frontend/static/media/hotel2.56ac3737.jpg",
     "static/media/hotel3.d186a999.jpg": "/explore-rwanda-online-frontend/static/media/hotel3.d186a999.jpg",
-    "static/media/logo.97b7a88b.svg": "/explore-rwanda-online-frontend/static/media/logo.97b7a88b.svg"
+    "static/media/logo.97b7a88b.svg": "/explore-rwanda-online-frontend/static/media/logo.97b7a88b.svg",
+    "static/media/profile.33c5e381.jpg": "/explore-rwanda-online-frontend/static/media/profile.33c5e381.jpg",
+    "static/media/index.css": "/explore-rwanda-online-frontend/static/media/test1.581b6a7f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2cf9e428.js",
     "static/css/2.e5940d02.chunk.css",
-    "static/js/2.775aa2ce.chunk.js",
-    "static/css/main.5769425f.chunk.css",
-    "static/js/main.d7f05ca3.chunk.js"
+    "static/js/2.a6b7db8c.chunk.js",
+    "static/css/main.2af8b05a.chunk.css",
+    "static/js/main.9520b01f.chunk.js"
   ]
 }
