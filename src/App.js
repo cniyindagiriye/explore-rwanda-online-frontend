@@ -10,8 +10,8 @@ function App() {
   return (
     <Router>
       <div className="font-sans w-full h-full m-0">
+        <Route path="/" exact component={Index} />
         <Switch>
-          <Route path="/" exact component={Index} />
           <Route path="/register" component={Auth} />
           <Route path="/register-success" component={AuthSuccess} />
           <Route path="/confirm-account" component={ConfirmRegistration} />

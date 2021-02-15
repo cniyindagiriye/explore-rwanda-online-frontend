@@ -10,7 +10,6 @@ const ConfirmRegistration = (props) => {
   useEffect(() => {
     const query = new URLSearchParams(props.location.search);
     const token = query.get('token');
-    console.log(token);
     axios
       .get('https://explore-rwanda-online.herokuapp.com/api/v1/users/confirm-account', {
         params: {
@@ -18,14 +17,12 @@ const ConfirmRegistration = (props) => {
         },
       })
       .then((response) => {
-        console.log(response);
         props.history.replace({
           pathname: '/register-success',
           message: response.data.message,
         });
       })
       .catch((err) => {
-        console.log(err);
         if (err) {
           setError('Confirm registration failed');
         }
